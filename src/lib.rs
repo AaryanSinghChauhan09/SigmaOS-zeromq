@@ -2,6 +2,9 @@
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
 
+/// Message queue module.
+pub mod sigmamq;
+
 use thiserror::Error;
 
 /// Error types for this component.
